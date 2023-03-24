@@ -1,0 +1,13 @@
+[Unit]
+Description= a service that starts with raspberry pi and records training collects data for a default duration
+After=multi-user.target
+
+[Service]
+Type=simple
+User=pi
+ExecStart= python3 /home/pi/Desktop/lora_test_service/startup_lora_send.py
+
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
