@@ -3,7 +3,7 @@ Official implementation of the "Improving remote health care with collaborative 
 
 
 <p align="center"> 
-<img src="https://github.com/gadm21/DORA/blob/main/assets/DORA.pdf">
+<img src="https://github.com/gadm21/DORA/blob/main/assets/DORA.png">
 </p>
 
 # Project Structure
