@@ -21,10 +21,7 @@ Official implementation of the "Improving remote health care with collaborative 
 
 |-- results                  // code in server side
     |-- accuracy/        // accuracy without using Diffrential Privacy (DP)
-    |-- accuracy DP EPS 20/        // accuracy using DP with epsilon 5 (not used in the paper)
-    |-- accuracy DP EPS 5/        // accuracy using DP with epsilon 5 (not used in the paper)
-    |-- scaling_HARBOX/        // accuracy using DP with epsilon 10 (not used in the paper)
-    |-- HARBOX_IMU/        // accuracy on HARBOX dataset while using IMU data as a public dataset (not used in this paper)
+
 
 |-- data                  // Human Activity Recognition datasets
     |-- large_scale_HARBox/         // HarBox dataset
