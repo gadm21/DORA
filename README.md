@@ -15,19 +15,19 @@ The second figure shows screenshots of the protoype and the Drona-Lora communica
 
 # Project Structure
 ```
-|-- src                     // code in client side
+|-- src                     // Code 
     |-- __init__.py/	// main file of client 
     |-- data_utils.py/	// functins for data retrieval and preprocessing
     |-- doing_fl.py/		// Performs Federated Learning
     |-- doing_local_central.py/	// seed script for local and central training 
     |-- spider_plot.py/	// plot individual accuracy on a spider plot
-    |-- DP_central.py/	// create and train a DP model
+    |-- DP_central.py/	// create and train a DP model 
     |-- DP_central_2.py/	// create and train a DP model 2
     |-- model_utils.py/	// functions for model creation and training
     |-- plot_utils.py/	// functions for plotting
 
-|-- results                  // code in server side
-    |-- accuracy/        // accuracy without using Diffrential Privacy (DP)
+|-- results                  // Federated learning results
+    |-- accuracy/        // Accuracy on HAR datasets under different FL methods
 
 
 |-- data                  // Human Activity Recognition datasets
@@ -39,7 +39,7 @@ The second figure shows screenshots of the protoype and the Drona-Lora communica
     |-- uwb_dataset/                // UWB dataset
 
 
-|-- communication                  // code in server side
+|-- communication                  // LoRa libraries
     |-- LoRa.py        // LoRa class
     |-- ReliableLoRa.py        // ReliableLoRa class
     |-- MainFunctions.py/ // Helper functions for LoRa and ReliableLoRa
