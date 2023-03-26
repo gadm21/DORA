@@ -1,9 +1,16 @@
 # DORA
-Official implementation of the "Improving remote health care with collaborative agents on IoT drone-aided lora network" paper
+Official implementation of the MDPI IJERPH submitted paper: "Improving remote health care with collaborative agents on IoT drone-aided lora network" 
+
+The first figure below shows an overview of the proposed Drone-aided system for health analytics in rural areas.
+The second figure shows screenshots of the protoype and the Drona-Lora communication test experiment. 
 
 
 <p align="center"> 
 <img src="https://github.com/gadm21/DORA/blob/main/assets/DORA.png">
+</p>
+
+<p align="center"> 
+<img src="https://github.com/gadm21/DORA/blob/main/assets/DORA_real.png">
 </p>
 
 # Project Structure
